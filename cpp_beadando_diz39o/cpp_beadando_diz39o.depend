@@ -1,4 +1,21 @@
 # depslib dependency file v1.0
-1584205420 source:c:\users\nopizza\documents\git\cpp_beadando\cpp_beadando_diz39o\main.cpp
+1610469287 source:c:\users\nopizza\documents\git\cpp_beadando\cpp_beadando_diz39o\main.cpp
 	<iostream>
+	"bus.hpp"
+	<string>
+
+1610469034 source:c:\users\nopizza\documents\git\cpp_beadando\cpp_beadando_diz39o\vehicle.cpp
+	"vehicle.hpp"
+
+1610473672 c:\users\nopizza\documents\git\cpp_beadando\cpp_beadando_diz39o\vehicle.hpp
+	<string>
+	<iostream>
+
+1610473726 c:\users\nopizza\documents\git\cpp_beadando\cpp_beadando_diz39o\bus.hpp
+	<iostream>
+	"vehicle.hpp"
+
+1610463547 source:c:\users\nopizza\documents\git\cpp_beadando\cpp_beadando_diz39o\sm_main_manu.cpp
+
+1610469161 source:c:\users\nopizza\documents\git\cpp_beadando\cpp_beadando_diz39o\truck.cpp
 

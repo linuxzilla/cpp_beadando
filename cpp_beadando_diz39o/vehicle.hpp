@@ -8,15 +8,21 @@ using namespace std;
 class Vehicle
 {
 public:
-    Vehicle(string lpn, string t, int yom);
-    string licensePlateNumber() {return licensePlateNumber_m;}
-    string type() {return type_m;}
-    int yearOfManufacture() {return yearOfManufacture_m;}
+    Vehicle(string lpn, string t, int yom, int c);
 
+    virtual string getDataFromated() = 0;
+
+    string getLicensePlateNumber() {return licensePlateNumber;}
+    string getType() {return type;}
+    int getYearOfManufacture() {return yearOfManufacture;}
+    int getCapacity() {return capacity;}
+    double getUsage() {return usage;}
+
+protected:
+    int capacity;
+    double usage;
 private:
-    string licensePlateNumber_m;
-    string type_m;
-    int yearOfManufacture_m;
-    double usageCurrent_m
-
+    string licensePlateNumber;
+    string type;
+    int yearOfManufacture;
 };
