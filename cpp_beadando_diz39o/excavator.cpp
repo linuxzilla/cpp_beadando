@@ -1,14 +1,14 @@
-#include "truck.hpp"
+#include "excavator.hpp"
 
 #include <string>
 #include <sstream>
 
 using namespace std;
 
-string Truck::getDataFromated()
+string Excavator::getDataFromated()
 {
     ostringstream stringStream;
-    stringStream << "Truck - ";
+    stringStream << "Excavator - ";
     stringStream << "Licence plate number: ";
     stringStream << licensePlateNumber << " ";
     stringStream << "Model: ";
@@ -16,8 +16,8 @@ string Truck::getDataFromated()
     stringStream << "Manufactured: ";
     stringStream << to_string(yearOfManufacture) << " ";
     stringStream << "Capacity: ";
-    stringStream << to_string(capacity) << "t ";
+    stringStream << to_string(capacity) << " kW ";
     stringStream << "Usage: ";
-    stringStream << to_string(usage) << " km/week";
+    stringStream << to_string(usage) << " work hours/week";
     return stringStream.str();
 }

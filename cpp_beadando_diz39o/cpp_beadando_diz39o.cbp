@@ -32,7 +32,9 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="bus.cpp" />
 		<Unit filename="bus.hpp" />
+		<Unit filename="excavator.cpp" />
 		<Unit filename="excavator.hpp" />
 		<Unit filename="main.cpp" />
 		<Unit filename="sm_main_manu.cpp" />

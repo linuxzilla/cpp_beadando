@@ -1,14 +1,18 @@
 #include <iostream>
-#include "bus.hpp"
 #include <string>
+
+#include "sm_main_manu.hpp"
 
 using namespace std;
 
 int main()
 {
-    Bus b("Nissan", "Leaf", 3,3);
-    string asd = b.getType();
-    cout << asd << endl;
-    cout << "Hello world!" << endl;
+    Sm_main_menu MainManu;
+
+    while (MainManu.getCurrentState() != Sm_main_menu::ST_EXIT)
+    {
+        MainManu.executeMainMenu();
+    }
+
     return 0;
 }
